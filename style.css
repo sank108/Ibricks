@@ -1,0 +1,215 @@
+.container{
+    height: 100vh;
+    width: 1505px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+}
+
+
+.customer-sidebar{
+    height: 100vh;
+    width: 250px;
+    background-color: rgb(200, 239, 244);
+    margin-left: -10px;
+    margin-top: -10px;
+    border-right: 1px solid black;
+}
+
+.customer-sidebar-header{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.customer{
+    background-color: #00e2f7;
+    margin-left: -10px;
+    padding-left: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.customer-main-body{
+    width: 1320px;
+    background-color: rgb(181, 244, 252);
+    margin-top: -10px;
+}
+
+.customer-main-body-header{
+    width: 1262px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    gap: 600px;
+    align-items: center;
+    padding-left: 10px;
+    background: rgb(200, 239, 244);
+}
+
+.input-btn input{
+    height: 30px;
+    width: 170px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.input-btn button{
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: #f9defb;
+    cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    transition: all ease-in-out 1s;
+}
+
+#popup-form {
+    display: none;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    height: 370px;
+    width: 400px;
+    transition: all ease-in-out 1s;
+}
+
+#popup-form h5{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.name {
+    height: 35px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.name-div{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.date{
+    height: 40px;
+    width: 255px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.dob{
+    margin-left: 20px;
+}
+
+.address{
+    margin-left: 20px;
+}
+
+.add{
+    height: 35px;
+        width: 250px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-left: 37px;
+}
+
+.btn-group{
+    margin-top: 10px;
+    margin-left: 265px;
+    display: flex;
+    gap: 5px;
+}
+
+#closeBtn{
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#submitBtn {
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: #f9defb;
+    cursor: pointer;
+    
+}
+
+#updateBtn{
+    height: 30px;
+        width: 40px;
+        border-radius: 5px;
+        border: 1px solid black;
+        background: #f9defb;
+        cursor: pointer;
+}
+table{
+    width: 1210px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: 30px;
+    visibility: hidden;
+    border-collapse: separate;
+    border-spacing: 0;
+    padding: 20px;
+}
+
+thead{
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+
+thead tr {
+    border-bottom: 2px solid black;
+    /* Add bottom border to thead row */
+}
+
+th{
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+.btn{
+    height: 20px;
+    width: 20px;
+    padding-top: 8px;
+
+}
